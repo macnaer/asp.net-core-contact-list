@@ -30,3 +30,4 @@ C:\Users\k2\Desktop\Lessons\TestProject\TestProject\obj\Debug\netcoreapp3.1\Test
 C:\Users\k2\Desktop\Lessons\TestProject\TestProject\obj\Debug\netcoreapp3.1\TestProject.Views.pdb
 C:\Users\k2\Desktop\Lessons\TestProject\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CopyComplete
 C:\Users\k2\Desktop\Lessons\TestProject\TestProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\k2\Desktop\Lessons\TestProject\TestProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
