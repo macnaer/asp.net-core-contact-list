@@ -8,5 +8,6 @@ namespace TestProject.Models
     public interface IContactRepository
     {
         Contact GetContact(int id);
+        IEnumerable<Contact> GetAllContacts();
     }
 }

@@ -1,4 +1,6 @@
-﻿@{ 
+﻿@model IEnumerable<TestProject.Models.Contact>
+@{ 
+   
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Home Page";
 }
@@ -124,39 +126,42 @@
                             <button type="button" class="btn btn-green btn-raised btn-add-new-contact"><span class="icon-plus" data-toggle="modal" data-target="#modal-pull-right-add"> Add New Contact</span></button>
                         </div>
                     </div>
-
-                    <div class="list-group contact-group">
-                        <a href="#" class="list-group-item">
-                            <div class="media">
-                                <div class="pull-left">
-                                    <img class="img-circle" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="...">
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">@Model.Name <small>@Model.Position </small></h4>
-                                    <div class="media-content">
-                                        <i class="fa fa-map-marker"></i> San Francisco, California, United States
-                                        <ul class="list-unstyled">
-                                            <li><i class="fa fa-skype"></i> jdoe.doe</li>
-                                            <li><i class="fa fa-mobile"></i> +63 912 212 2451</li>
-                                            <li><i class="fa fa-envelope-o"></i> joedoe@email.com</li>
-                                        </ul>
+                    @foreach (var user in Model)
+                    {
+                        <div class="list-group contact-group">
+                            <a href="#" class="list-group-item">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="img-circle" src="@user.Avatar" alt="...">
                                     </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">@user.Name <small> @user.Position </small></h4>
+                                        <div class="media-content">
+                                            <i class="fa fa-map-marker"></i> @user.Address
+                                            <ul class="list-unstyled">
+                                                <li><i class="fa fa-skype"></i> @user.NickName</li>
+                                                <li><i class="fa fa-mobile"></i> @user.PhoneNumber</li>
+                                                <li><i class="fa fa-envelope-o"></i> @user.Email</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                     }
+                        <div class="pull-right">
+                            <ul class="pagination pagination-split pagination-sm pagination-contact">
+                                <li class="disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="pull-right">
-                        <ul class="pagination pagination-split pagination-sm pagination-contact">
-                            <li class="disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
             <div class="modal modal-pull-right" data-easein="fadeInRight" data-easeout="fadeOutRight" id="modal-pull-right-add" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
                 <div class="modal-dialog">

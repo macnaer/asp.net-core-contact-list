@@ -19,8 +19,7 @@ namespace TestProject.Controllers
 
         public IActionResult Index()
         {
-            Contact model = _contactRepository.GetContact(1);
-            Console.WriteLine("model ====>> " + model.Name);
+            var model = _contactRepository.GetAllContacts();
             return View(model);
         }
 
