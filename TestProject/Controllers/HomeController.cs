@@ -9,11 +9,18 @@ namespace TestProject.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IContactRepository contactRepository;
+
+        private readonly IContactRepository _contactRepository;
+
+        public HomeController(IContactRepository contactRepository)
+        {
+            _contactRepository = contactRepository;
+        }
+
         public IActionResult Index()
         {
-            Contact model = contactRepository.GetContact(1);
-            Console.WriteLine("model ====>> ", model);
+            Contact model = _contactRepository.GetContact(1);
+            Console.WriteLine("model ====>> " + model.Name);
             return View(model);
         }
 
