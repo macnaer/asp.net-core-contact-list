@@ -27,5 +27,11 @@ namespace TestProject.Controllers
         {
             return View();
         }
+
+        public IActionResult Details(int id)
+        {
+            var model = _contactRepository.GetContact(id);
+            return View(model);
+        }
     }
 }
