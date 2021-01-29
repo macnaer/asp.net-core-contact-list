@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject\\TestProject.csproj",
+      "projectPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\k2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
