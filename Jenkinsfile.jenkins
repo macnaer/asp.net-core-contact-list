@@ -1,6 +1,7 @@
 ﻿#!groovy
 //  groovy Jenkinsfile
 properties([disableConcurrentBuilds()])
+
 pipeline  {
     agent { 
         label 'master'
@@ -10,11 +11,11 @@ pipeline  {
         timestamps()
     }
     stages {
-        stage("Create docker image") {
+        stage("Create docker image") { 
             steps {
                 echo 'Creating docker image ...'
                 dir('.'){
-                    sh "docker build -t macnaer/contact_list_dotnet . "
+                    sh "docker build -t parchuk/frontend94 . "
                 }
             }
         }
@@ -32,42 +33,36 @@ pipeline  {
             steps {
                 echo " ============== pushing image =================="
                 sh '''
-                docker push macnaer/contact_list_dotnet:latest
+                docker push parchuk/frontend94:latest
                 '''
             }
         }
-       // stage("docker stop") {
-        //    steps {
-       //         echo " ============== stoping all images =================="
-       //         sh '''
-       //         docker stop chatterboxserver
-        //        '''
-        //    }
-       // } 
-      //  stage("docker remove") {
-      //      steps {
-      //          echo " ============== removing all docker containers =================="
-      //          sh '''
-      //          docker rm chatterboxserver
-      //          '''
-      //      }
-      //  }
-      //  stage("docker run") {
-      //      steps {
-       //         echo " ============== starting chatterbox server =================="
-      //          sh '''
-      //          docker run -d --restart=always --name chatterboxserver -p 3200:3200 macnaer/chatterboxserver
-      //          '''
-      //      }
-      //  }
-        // stage("Deploy to stage server") {
-        //     steps {
-        //         echo " ============== Running playbook =================="
-        //         sh '''
-        //         ansible-playbook toolbox/ansible/playbooks/demloyToStageServer.yml
-        //         '''
-        //     }
-        //}
+        stage("docker stop") {
+            steps {
+                echo " ============== stoping all images =================="
+                sh '''
+                docker stop bootshop
+                '''
+            }
+        } 
+        stage("docker remove") {
+            steps {
+                echo " ============== removing all docker containers =================="
+                sh '''
+                docker rm bootshop
+                '''
+            }
+        }
+        stage("docker run") {
+           steps {
+               echo " ============== docker run =================="
+                withCredentials([usernamePassword(credentialsId: 'DB-Credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+               sh '''
+               docker run -e DB_ACCESS_KEY_ID=$USERNAME -e DB_SECRET_ACCESS_KEY=$PASSWORD -d --restart=always --name bootshop -p 80:8000 parchuk/frontend94
+               '''
+                }
+           }
+        }
 
     }
 }
