@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj",
+      "projectPath": "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\k2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -261,7 +261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
