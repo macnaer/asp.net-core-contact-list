@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Contact>
-@{ 
-   
+@{
+
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Home Page";
 }
@@ -129,7 +129,8 @@
                     @foreach (var user in Model)
                     {
                         <div class="list-group contact-group">
-                            <a href="#" class="list-group-item">
+                            <a asp-controller="home" asp-action="details"
+                               asp-route-id="@user.Id" class="list-group-item">
                                 <div class="media">
                                     <div class="pull-left">
                                         <img class="img-circle" src="@user.Avatar" alt="...">
@@ -145,23 +146,22 @@
                                             </ul>
                                         </div>
                                     </div>
-
                                 </div>
                             </a>
                         </div>
-                     }
-                        <div class="pull-right">
-                            <ul class="pagination pagination-split pagination-sm pagination-contact">
-                                <li class="disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                            </ul>
-                        </div>
+                    }
+                    <div class="pull-right">
+                        <ul class="pagination pagination-split pagination-sm pagination-contact">
+                            <li class="disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
                     </div>
+                </div>
             </div>
             <div class="modal modal-pull-right" data-easein="fadeInRight" data-easeout="fadeOutRight" id="modal-pull-right-add" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
                 <div class="modal-dialog">

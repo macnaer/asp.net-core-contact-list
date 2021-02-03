@@ -139,3 +139,6 @@ C:\Users\k2\Desktop\Lessons\TestProject\obj\Debug\netcoreapp3.1\TestProject.dll
 C:\Users\k2\Desktop\Lessons\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
 C:\Users\k2\Desktop\Lessons\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
 C:\Users\k2\Desktop\Lessons\TestProject\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\Docker.DotNet.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
