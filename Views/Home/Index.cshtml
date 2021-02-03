@@ -133,7 +133,7 @@
                                asp-route-id="@user.Id" class="list-group-item">
                                 <div class="media">
                                     <div class="pull-left">
-                                        <img class="img-circle" src="@user.Avatar" alt="...">
+                                        <img class="img-circle" src="~/images/@user.Avatar" alt="..." asp-append-version="true">
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">@user.Name <small> @user.Position </small></h4>
