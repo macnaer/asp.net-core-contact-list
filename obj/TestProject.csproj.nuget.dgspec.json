@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\k2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k2\\Desktop\\Lessons\\asp.net core\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\k2\\Desktop\\Lessons\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,6 +47,34 @@
               "target": "Package",
               "version": "[3.125.4, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
@@ -74,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
