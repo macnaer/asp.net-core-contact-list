@@ -33,5 +33,18 @@ namespace TestProject.Controllers
             var model = _contactRepository.GetContact(id);
             return View(model);
         }
+
+        //[HttpGet]
+        //public  IActionResult Create()
+        //{
+        //    return View();
+        //}
+
+        [HttpPost]
+        public RedirectToActionResult Create(Contact contact)
+        {
+            Contact newContact = _contactRepository.AddContact(contact);
+            return RedirectToAction("details", new { id = newContact.Id });
+        }
     }
 }

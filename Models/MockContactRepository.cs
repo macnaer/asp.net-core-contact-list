@@ -27,5 +27,11 @@ namespace TestProject.Models
         {
             return _contactList;
         }
+        public Contact AddContact(Contact contact)
+        {
+            contact.Id = _contactList.Max(e => e.Id) + 1;
+            _contactList.Add(contact);
+            return contact;
+        }
     }
 }
