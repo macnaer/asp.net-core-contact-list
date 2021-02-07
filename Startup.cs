@@ -27,7 +27,7 @@ namespace TestProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddSingleton<IContactRepository, MockContactRepository>();
+            services.AddScoped<IContactRepository, SQLContactRepository>();
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(_config.GetConnectionString("ContactList")));
         }

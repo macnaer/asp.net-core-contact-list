@@ -10,5 +10,7 @@ namespace TestProject.Models
         Contact GetContact(int id);
         IEnumerable<Contact> GetAllContacts();
         Contact AddContact(Contact contact);
+        Contact UpdateContact(Contact contact);
+        Contact DeleteContact(int Id);
     }
 }

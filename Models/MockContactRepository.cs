@@ -33,5 +33,30 @@ namespace TestProject.Models
             _contactList.Add(contact);
             return contact;
         }
+
+        public Contact UpdateContact(Contact contactChange)
+        {
+            Contact contact = _contactList.FirstOrDefault(e => e.Id == contactChange.Id);
+            if (contact != null)
+            {
+                contact.Name = contactChange.Name;
+                contact.Email = contactChange.Email;
+                contact.Address = contactChange.Address;
+                contact.Avatar = contactChange.Avatar;
+                contact.NickName = contactChange.NickName;
+                contact.Position = contactChange.Position;
+            }
+            return contact;
+        }
+
+        public Contact DeleteContact(int Id)
+        {
+            Contact contact = _contactList.FirstOrDefault(e => e.Id == Id);
+            if (contact != null)
+            {
+                _contactList.Remove(contact);
+            }
+            return contact;
+        }
     }
 }
