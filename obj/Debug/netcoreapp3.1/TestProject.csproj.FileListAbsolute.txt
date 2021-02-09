@@ -222,3 +222,9 @@ C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\run
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll

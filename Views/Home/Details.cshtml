@@ -11,7 +11,14 @@
             <a href="#" class="list-group-item">
                 <div class="media">
                     <div class="pull-left">
-                        <img class="img-circle" src="@Model.Avatar" alt="..." asp-append-version="true">
+                        @if (Model.Avatar != "")
+                        {
+                            <img class="img-circle" src="~/images/@Model.Avatar" alt="..." asp-append-version="true">
+                        }
+                        else
+                        {
+                            <img class="img-circle" src="~/images/default.png" alt="..." asp-append-version="true">
+                        }
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">@Model.Name <small> @Model.Position </small></h4>
