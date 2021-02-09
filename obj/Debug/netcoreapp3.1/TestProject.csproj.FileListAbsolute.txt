@@ -228,3 +228,8 @@ C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\nlo
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\NLog.dll
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
