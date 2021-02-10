@@ -23,4 +23,3 @@ namespace TestProject.Models.ViewModels
         public string ConfirmPassword { get; set; }
     }
 }
-}
