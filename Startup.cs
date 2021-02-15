@@ -33,6 +33,12 @@ namespace TestProject
             services.AddScoped<IContactRepository, SQLContactRepository>();
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(_config.GetConnectionString("ContactList")));
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequiredLength = 4;
+                options.Password.RequiredUniqueChars = 2;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +56,7 @@ namespace TestProject
             app.UseStaticFiles();
             app.UseAuthentication();
             app.UseRouting();
-
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

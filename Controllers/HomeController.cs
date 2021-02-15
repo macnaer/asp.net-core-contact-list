@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,6 +12,7 @@ using TestProject.Models.ViewModels;
 
 namespace TestProject.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
 
@@ -23,18 +25,14 @@ namespace TestProject.Controllers
             this.hostingEnvironment = hostingEnvironment;
         }
 
-
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var model = _contactRepository.GetAllContacts();
             return View(model);
         }
 
-        public IActionResult About()
-        {
-            return View();
-        }
-
+        [AllowAnonymous]
         public IActionResult Details(int id)
         {
             var model = _contactRepository.GetContact(id);

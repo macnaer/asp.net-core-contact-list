@@ -1,0 +1,76 @@
+2021-02-11 12:16:02.4318|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:16:03.1259|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:16:03.1698|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:16:03.1987|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 12:21:30.6419|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:21:30.7974|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:21:30.8251|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:21:30.9115|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 12:23:00.4682|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:23:01.0409|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:23:01.2394|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:23:01.3491|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 12:25:47.1887|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:25:47.3690|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:25:48.1080|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:25:48.1868|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 12:45:22.7763|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:45:23.6259|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:45:24.2029|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:45:24.3432|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 12:47:31.1483|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:47:31.6270|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:47:31.8426|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:47:31.9441|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 12:48:25.9430|WARN|Microsoft.AspNetCore.Identity.UserManager|User a5200374-29d1-4dc1-b5a5-41ac4715031f password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper.
+2021-02-11 12:55:07.2608|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:55:07.4548|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:55:07.4962|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:55:07.5731|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 12:55:23.6367|WARN|Microsoft.AspNetCore.Identity.UserManager|User 70b981f6-c95a-46ad-b9bd-a0d619d71d5c password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper.
+2021-02-11 12:55:55.0762|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 12:55:55.2311|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 12:55:55.3424|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 12:55:55.3862|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 13:04:25.2321|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 13:04:25.8486|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 13:04:25.9832|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 13:04:26.0408|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 13:07:09.5848|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 13:07:10.2994|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 13:07:10.7070|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 13:07:11.0189|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 13:08:54.5851|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 13:08:55.1636|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 13:08:55.2594|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 13:08:55.3425|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 13:13:47.8434|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 13:13:48.0320|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 13:13:48.1101|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 13:13:48.1401|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 13:16:48.6132|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 13:16:48.8554|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 13:16:49.1428|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 13:16:49.3132|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 14:09:03.1555|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 14:09:03.7655|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 14:09:03.8105|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 14:09:03.9547|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 14:10:27.8752|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 14:10:28.5769|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 14:10:28.7931|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 14:10:29.2383|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 14:13:12.2870|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 14:13:12.4986|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 14:13:12.5539|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 14:13:12.5850|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 14:17:40.1817|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 14:17:40.8341|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 14:17:40.9787|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 14:17:41.0177|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 14:18:38.2562|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-02-11 14:18:38.5213|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-02-11 14:18:38.7973|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-02-11 14:18:39.0721|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\k2\Desktop\Lessons\TestProject
+2021-02-11 14:18:57.3332|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 5742e633-6d42-4d1f-bb03-085c27bbfa28.
+2021-02-11 14:18:57.3532|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 5742e633-6d42-4d1f-bb03-085c27bbfa28 failed to provide the correct password.
